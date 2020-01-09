@@ -35,15 +35,14 @@ nnoremap j gj
 nnoremap k gk
 
 " move to beginning/end of line
-nnoremap B ^
-nnoremap E $
+nnoremap , 0
+nnoremap . $
 
+nnoremap 0 <nop>
 nnoremap $ <nop>
 nnoremap ^ <nop>
 
 nnoremap gV `[v`] " hightlight last inserted text
-
-let mapleader="," " leader is comma
 
 nnoremap <leader>u :GundoToggle<CR> " toggle gundo
 
