@@ -103,7 +103,7 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: '/bin/bash',
+    shell: '/usr/local/bin/fish',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
@@ -137,6 +137,10 @@ module.exports = {
     // rendering (slower, but supports transparent backgrounds)
     webGLRenderer: true,
 
+    hypercwd: {
+      initialWorkingDirectory: '~'
+    }
+
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
 
@@ -151,7 +155,7 @@ module.exports = {
     'hyper-search',
     'hyper-pane',
     'hyper-highlight-active-pane',
-    'xi-hyper'
+    'hyper-material-theme'
   ],
 
   // in development, you can create a directory under
