@@ -1,1 +1,1 @@
-set -g -x fish_greeting ''
+set -g -x fish_greeting 'Welcome back!'
