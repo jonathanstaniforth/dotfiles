@@ -1,10 +1,12 @@
 colorscheme pencil
+set t_Co=256 " Set for tmux to display colorscheme correctly
 
 syntax enable
 
 set tabstop=4 " number of visual spaces per tab
 set softtabstop=4 " number of spaces in tab when editing
 set expandtab " tabs become spaces
+set shiftwidth=4 " number of spaces for reindent operators
 
 set number " show line numbers
 set showcmd " show command in bottom bar
