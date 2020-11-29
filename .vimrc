@@ -1,4 +1,3 @@
-colorscheme pencil
 set t_Co=256 " Set for tmux to display colorscheme correctly
 
 syntax enable
